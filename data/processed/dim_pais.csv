@@ -1,0 +1,215 @@
+iso3,pais,pais_en,region,subregion,es_latam
+ABW,Aruba,Aruba,América Latina y el Caribe,Caribe,True
+AFG,Afganistán,Afghanistan,Asia,Asia del Sur,False
+AGO,Angola,Angola,África,África Central,False
+ALB,Albania,Albania,Europa,Europa del Sur,False
+ARE,Emiratos Árabes Unidos,United Arab Emirates,Asia,Asia Occidental y Medio Oriente,False
+ARG,Argentina,Argentina,América Latina y el Caribe,Sudamérica,True
+ARM,Armenia,Armenia,Asia,Asia Occidental y Medio Oriente,False
+ASM,Samoa Americana,American Samoa,Oceanía,Islas del Pacífico,False
+ATG,Antigua y Barbuda,Antigua and Barbuda,América Latina y el Caribe,Caribe,True
+AUS,Australia,Australia,Oceanía,Australia y Nueva Zelanda,False
+AUT,Austria,Austria,Europa,Europa Occidental,False
+AZE,Azerbaiyán,Azerbaijan,Asia,Asia Occidental y Medio Oriente,False
+BDI,Burundi,Burundi,África,África Oriental,False
+BEL,Bélgica,Belgium,Europa,Europa Occidental,False
+BEN,Benín,Benin,África,África Occidental,False
+BFA,Burkina Faso,Burkina Faso,África,África Occidental,False
+BGD,Bangladés,Bangladesh,Asia,Asia del Sur,False
+BGR,Bulgaria,Bulgaria,Europa,Europa del Este,False
+BHR,Baréin,Bahrain,Asia,Asia Occidental y Medio Oriente,False
+BHS,Bahamas,Bahamas,América Latina y el Caribe,Caribe,True
+BIH,Bosnia y Herzegovina,Bosnia and Herzegovina,Europa,Europa del Sur,False
+BLR,Bielorrusia,Belarus,Europa,Europa del Este,False
+BLZ,Belice,Belize,América Latina y el Caribe,Centroamérica y México,True
+BMU,Bermudas,Bermuda,Norteamérica,Norteamérica,False
+BOL,Bolivia,Bolivia,América Latina y el Caribe,Sudamérica,True
+BRA,Brasil,Brazil,América Latina y el Caribe,Sudamérica,True
+BRB,Barbados,Barbados,América Latina y el Caribe,Caribe,True
+BRN,Brunéi,Brunei Darussalam,Asia,Sudeste Asiático,False
+BTN,Bután,Bhutan,Asia,Asia del Sur,False
+BWA,Botsuana,Botswana,África,África Austral,False
+CAF,República Centroafricana,Central African Republic,África,África Central,False
+CAN,Canadá,Canada,Norteamérica,Norteamérica,False
+CHE,Suiza,Switzerland,Europa,Europa Occidental,False
+CHL,Chile,Chile,América Latina y el Caribe,Sudamérica,True
+CHN,China,China,Asia,Asia Oriental,False
+CIV,Côte d’Ivoire,Côte d'Ivoire,África,África Occidental,False
+CMR,Camerún,Cameroon,África,África Central,False
+COD,República Democrática del Congo,DR Congo,África,África Central,False
+COG,Congo,Congo Republic,África,África Central,False
+COK,Islas Cook,Cook Islands,Oceanía,Islas del Pacífico,False
+COL,Colombia,Colombia,América Latina y el Caribe,Sudamérica,True
+COM,Comoras,Comoros,África,África Oriental,False
+CPV,Cabo Verde,Cabo Verde,África,África Occidental,False
+CRI,Costa Rica,Costa Rica,América Latina y el Caribe,Centroamérica y México,True
+CUB,Cuba,Cuba,América Latina y el Caribe,Caribe,True
+CYM,Islas Caimán,Cayman Islands,América Latina y el Caribe,Caribe,True
+CYP,Chipre,Cyprus,Asia,Asia Occidental y Medio Oriente,False
+CZE,Chequia,Czechia,Europa,Europa del Este,False
+DEU,Alemania,Germany,Europa,Europa Occidental,False
+DJI,Yibuti,Djibouti,África,África Oriental,False
+DMA,Dominica,Dominica,América Latina y el Caribe,Caribe,True
+DNK,Dinamarca,Denmark,Europa,Europa del Norte,False
+DOM,República Dominicana,Dominican Republic,América Latina y el Caribe,Caribe,True
+DZA,Argelia,Algeria,África,Norte de África,False
+ECU,Ecuador,Ecuador,América Latina y el Caribe,Sudamérica,True
+EGY,Egipto,Egypt,África,Norte de África,False
+ERI,Eritrea,Eritrea,África,África Oriental,False
+ESH,Sáhara Occidental,Western Sahara,África,Norte de África,False
+ESP,España,Spain,Europa,Europa del Sur,False
+EST,Estonia,Estonia,Europa,Europa del Norte,False
+ETH,Etiopía,Ethiopia,África,África Oriental,False
+FIN,Finlandia,Finland,Europa,Europa del Norte,False
+FJI,Fiyi,Fiji,Oceanía,Islas del Pacífico,False
+FLK,Islas Malvinas,Falkland Islands,América Latina y el Caribe,Sudamérica,True
+FRA,Francia,France,Europa,Europa Occidental,False
+FRO,Islas Feroe,Faroe Islands,Europa,Europa del Norte,False
+GAB,Gabón,Gabon,África,África Central,False
+GBR,Reino Unido,United Kingdom,Europa,Europa del Norte,False
+GEO,Georgia,Georgia,Asia,Asia Occidental y Medio Oriente,False
+GHA,Ghana,Ghana,África,África Occidental,False
+GIB,Gibraltar,Gibraltar,Europa,Europa del Sur,False
+GIN,Guinea,Guinea,África,África Occidental,False
+GLP,Guadalupe,Guadeloupe,América Latina y el Caribe,Caribe,True
+GMB,Gambia,Gambia,África,África Occidental,False
+GNB,Guinea-Bisáu,Guinea-Bissau,África,África Occidental,False
+GNQ,Guinea Ecuatorial,Equatorial Guinea,África,África Central,False
+GRC,Grecia,Greece,Europa,Europa del Sur,False
+GRD,Granada,Grenada,América Latina y el Caribe,Caribe,True
+GRL,Groenlandia,Greenland,Norteamérica,Norteamérica,False
+GTM,Guatemala,Guatemala,América Latina y el Caribe,Centroamérica y México,True
+GUF,Guayana Francesa,French Guiana,América Latina y el Caribe,Sudamérica,True
+GUM,Guam,Guam,Oceanía,Islas del Pacífico,False
+GUY,Guyana,Guyana,América Latina y el Caribe,Sudamérica,True
+HKG,Hong Kong,Hong Kong,Asia,Asia Oriental,False
+HND,Honduras,Honduras,América Latina y el Caribe,Centroamérica y México,True
+HRV,Croacia,Croatia,Europa,Europa del Sur,False
+HTI,Haití,Haiti,América Latina y el Caribe,Caribe,True
+HUN,Hungría,Hungary,Europa,Europa del Este,False
+IDN,Indonesia,Indonesia,Asia,Sudeste Asiático,False
+IND,India,India,Asia,Asia del Sur,False
+IRL,Irlanda,Ireland,Europa,Europa del Norte,False
+IRN,Irán,Iran,Asia,Asia del Sur,False
+IRQ,Irak,Iraq,Asia,Asia Occidental y Medio Oriente,False
+ISL,Islandia,Iceland,Europa,Europa del Norte,False
+ISR,Israel,Israel,Asia,Asia Occidental y Medio Oriente,False
+ITA,Italia,Italy,Europa,Europa del Sur,False
+JAM,Jamaica,Jamaica,América Latina y el Caribe,Caribe,True
+JOR,Jordania,Jordan,Asia,Asia Occidental y Medio Oriente,False
+JPN,Japón,Japan,Asia,Asia Oriental,False
+KAZ,Kazajistán,Kazakhstan,Asia,Asia Central,False
+KEN,Kenia,Kenya,África,África Oriental,False
+KGZ,Kirguistán,Kyrgyzstan,Asia,Asia Central,False
+KHM,Camboya,Cambodia,Asia,Sudeste Asiático,False
+KIR,Kiribati,Kiribati,Oceanía,Islas del Pacífico,False
+KNA,San Cristóbal y Nieves,St. Kitts and Nevis,América Latina y el Caribe,Caribe,True
+KOR,Corea del Sur,South Korea,Asia,Asia Oriental,False
+KWT,Kuwait,Kuwait,Asia,Asia Occidental y Medio Oriente,False
+LAO,Laos,Laos,Asia,Sudeste Asiático,False
+LBN,Líbano,Lebanon,Asia,Asia Occidental y Medio Oriente,False
+LBR,Liberia,Liberia,África,África Occidental,False
+LBY,Libia,Libya,África,Norte de África,False
+LCA,Santa Lucía,St. Lucia,América Latina y el Caribe,Caribe,True
+LKA,Sri Lanka,Sri Lanka,Asia,Asia del Sur,False
+LSO,Lesoto,Lesotho,África,África Austral,False
+LTU,Lituania,Lithuania,Europa,Europa del Norte,False
+LUX,Luxemburgo,Luxembourg,Europa,Europa Occidental,False
+LVA,Letonia,Latvia,Europa,Europa del Norte,False
+MAC,Macao,Macau,Asia,Asia Oriental,False
+MAR,Marruecos,Morocco,África,Norte de África,False
+MDA,Moldavia,Moldova,Europa,Europa del Este,False
+MDG,Madagascar,Madagascar,África,África Oriental,False
+MDV,Maldivas,Maldives,Asia,Asia del Sur,False
+MEX,México,Mexico,América Latina y el Caribe,Centroamérica y México,True
+MKD,Macedonia del Norte,North Macedonia,Europa,Europa del Sur,False
+MLI,Mali,Mali,África,África Occidental,False
+MLT,Malta,Malta,Europa,Europa del Sur,False
+MMR,Myanmar (Birmania),Myanmar,Asia,Sudeste Asiático,False
+MNE,Montenegro,Montenegro,Europa,Europa del Sur,False
+MNG,Mongolia,Mongolia,Asia,Asia Oriental,False
+MOZ,Mozambique,Mozambique,África,África Oriental,False
+MRT,Mauritania,Mauritania,África,África Occidental,False
+MSR,Montserrat,Montserrat,América Latina y el Caribe,Caribe,True
+MTQ,Martinica,Martinique,América Latina y el Caribe,Caribe,True
+MUS,Mauricio,Mauritius,África,África Oriental,False
+MWI,Malaui,Malawi,África,África Oriental,False
+MYS,Malasia,Malaysia,Asia,Sudeste Asiático,False
+NAM,Namibia,Namibia,África,África Austral,False
+NCL,Nueva Caledonia,New Caledonia,Oceanía,Islas del Pacífico,False
+NER,Níger,Niger,África,África Occidental,False
+NGA,Nigeria,Nigeria,África,África Occidental,False
+NIC,Nicaragua,Nicaragua,América Latina y el Caribe,Centroamérica y México,True
+NIU,Niue,Niue,Oceanía,Islas del Pacífico,False
+NLD,Países Bajos,Netherlands,Europa,Europa Occidental,False
+NOR,Noruega,Norway,Europa,Europa del Norte,False
+NPL,Nepal,Nepal,Asia,Asia del Sur,False
+NRU,Nauru,Nauru,Oceanía,Islas del Pacífico,False
+NZL,Nueva Zelanda,New Zealand,Oceanía,Australia y Nueva Zelanda,False
+OMN,Omán,Oman,Asia,Asia Occidental y Medio Oriente,False
+PAK,Pakistán,Pakistan,Asia,Asia del Sur,False
+PAN,Panamá,Panama,América Latina y el Caribe,Centroamérica y México,True
+PER,Perú,Peru,América Latina y el Caribe,Sudamérica,True
+PHL,Filipinas,Philippines,Asia,Sudeste Asiático,False
+PNG,Papúa Nueva Guinea,Papua New Guinea,Oceanía,Islas del Pacífico,False
+POL,Polonia,Poland,Europa,Europa del Este,False
+PRI,Puerto Rico,Puerto Rico,América Latina y el Caribe,Caribe,True
+PRK,Corea del Norte,North Korea,Asia,Asia Oriental,False
+PRT,Portugal,Portugal,Europa,Europa del Sur,False
+PRY,Paraguay,Paraguay,América Latina y el Caribe,Sudamérica,True
+PSE,Palestina,Palestine,Asia,Asia Occidental y Medio Oriente,False
+PYF,Polinesia Francesa,French Polynesia,Oceanía,Islas del Pacífico,False
+QAT,Catar,Qatar,Asia,Asia Occidental y Medio Oriente,False
+REU,Reunión,Réunion,África,África Oriental,False
+ROU,Rumanía,Romania,Europa,Europa del Este,False
+RUS,Rusia,Russia,Europa,Europa del Este,False
+RWA,Ruanda,Rwanda,África,África Oriental,False
+SAU,Arabia Saudí,Saudi Arabia,Asia,Asia Occidental y Medio Oriente,False
+SDN,Sudán,Sudan,África,Norte de África,False
+SEN,Senegal,Senegal,África,África Occidental,False
+SGP,Singapur,Singapore,Asia,Sudeste Asiático,False
+SHN,Santa Elena,St. Helena,África,África Occidental,False
+SLB,Islas Salomón,Solomon Islands,Oceanía,Islas del Pacífico,False
+SLE,Sierra Leona,Sierra Leone,África,África Occidental,False
+SLV,El Salvador,El Salvador,América Latina y el Caribe,Centroamérica y México,True
+SOM,Somalia,Somalia,África,África Oriental,False
+SPM,San Pedro y Miquelón,St. Pierre and Miquelon,Norteamérica,Norteamérica,False
+SRB,Serbia,Serbia,Europa,Europa del Sur,False
+SSD,Sudán del Sur,South Sudan,África,África Oriental,False
+STP,Santo Tomé y Príncipe,Sao Tome and Principe,África,África Central,False
+SUR,Surinam,Suriname,América Latina y el Caribe,Sudamérica,True
+SVK,Eslovaquia,Slovakia,Europa,Europa del Este,False
+SVN,Eslovenia,Slovenia,Europa,Europa del Sur,False
+SWE,Suecia,Sweden,Europa,Europa del Norte,False
+SWZ,Esuatini,Eswatini,África,África Austral,False
+SYC,Seychelles,Seychelles,África,África Oriental,False
+SYR,Siria,Syria,Asia,Asia Occidental y Medio Oriente,False
+TCA,Islas Turcas y Caicos,Turks and Caicos Islands,América Latina y el Caribe,Caribe,True
+TCD,Chad,Chad,África,África Central,False
+TGO,Togo,Togo,África,África Occidental,False
+THA,Tailandia,Thailand,Asia,Sudeste Asiático,False
+TJK,Tayikistán,Tajikistan,Asia,Asia Central,False
+TKM,Turkmenistán,Turkmenistan,Asia,Asia Central,False
+TLS,Timor-Leste,Timor-Leste,Asia,Sudeste Asiático,False
+TON,Tonga,Tonga,Oceanía,Islas del Pacífico,False
+TTO,Trinidad y Tobago,Trinidad and Tobago,América Latina y el Caribe,Caribe,True
+TUN,Túnez,Tunisia,África,Norte de África,False
+TUR,Turquía,Türkiye,Asia,Asia Occidental y Medio Oriente,False
+TWN,Taiwán,Taiwan,Asia,Asia Oriental,False
+TZA,Tanzania,Tanzania,África,África Oriental,False
+UGA,Uganda,Uganda,África,África Oriental,False
+UKR,Ucrania,Ukraine,Europa,Europa del Este,False
+URY,Uruguay,Uruguay,América Latina y el Caribe,Sudamérica,True
+USA,Estados Unidos,United States,Norteamérica,Norteamérica,False
+UZB,Uzbekistán,Uzbekistan,Asia,Asia Central,False
+VCT,San Vicente y las Granadinas,St. Vincent and the Grenadines,América Latina y el Caribe,Caribe,True
+VEN,Venezuela,Venezuela,América Latina y el Caribe,Sudamérica,True
+VGB,Islas Vírgenes Británicas,British Virgin Islands,América Latina y el Caribe,Caribe,True
+VIR,Islas Vírgenes de EE. UU.,United States Virgin Islands,América Latina y el Caribe,Caribe,True
+VNM,Vietnam,Vietnam,Asia,Sudeste Asiático,False
+VUT,Vanuatu,Vanuatu,Oceanía,Islas del Pacífico,False
+WSM,Samoa,Samoa,Oceanía,Islas del Pacífico,False
+YEM,Yemen,Yemen,Asia,Asia Occidental y Medio Oriente,False
+ZAF,Sudáfrica,South Africa,África,África Austral,False
+ZMB,Zambia,Zambia,África,África Oriental,False
+ZWE,Zimbabue,Zimbabwe,África,África Oriental,False

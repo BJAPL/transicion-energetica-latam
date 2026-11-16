@@ -1,0 +1,35 @@
+{
+  "name": "Transición energética",
+  "dataColors": [
+    "#2A78D6", "#EB6834", "#1BAF7A", "#EDA100", "#E87BA4", "#008300", "#6250D6", "#E34948"
+  ],
+  "foreground": "#1F1F1C",
+  "foregroundNeutralSecondary": "#6B6B64",
+  "background": "#FFFFFF",
+  "backgroundLight": "#F4F3EF",
+  "tableAccent": "#2A78D6",
+  "good": "#1BAF7A",
+  "neutral": "#EDA100",
+  "bad": "#E34948",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#1F1F1C" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#1F1F1C" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#55554F" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 26, "color": "#1F1F1C" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "visualHeader": [{ "show": true }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F3EF" } }, "transparency": 0 }]
+      }
+    }
+  }
+}

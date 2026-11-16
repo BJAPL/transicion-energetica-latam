@@ -1,0 +1,10 @@
+fuente_id,fuente,categoria,orden,grupo_grafico,color_hex
+carbon,Carbón,Fósil,1,Carbón,#6250D6
+gas,Gas natural,Fósil,2,Gas y petróleo,#E87BA4
+petroleo,Petróleo,Fósil,3,Gas y petróleo,#E87BA4
+nuclear,Nuclear,Nuclear,4,Nuclear,#E34948
+hidro,Hidroeléctrica,Renovable,5,Hidroeléctrica,#2A78D6
+solar,Solar,Renovable,6,Solar,#EDA100
+eolica,Eólica,Renovable,7,Eólica,#1BAF7A
+bioenergia,Bioenergía,Renovable,8,Otras renovables,#008300
+otras_renov,Geotermia y otras,Renovable,9,Otras renovables,#008300

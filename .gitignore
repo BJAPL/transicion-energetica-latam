@@ -1,0 +1,16 @@
+# Datos crudos: se descargan con src/01_descargar_datos.py (≈ 25 MB)
+data/raw/*.csv
+# Base SQLite: se regenera con src/03_cargar_sql.py
+data/*.db
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# Power BI: archivos temporales y de respaldo
+*.pbix.bak
+~$*
+# Sistema
+.DS_Store
+Thumbs.db

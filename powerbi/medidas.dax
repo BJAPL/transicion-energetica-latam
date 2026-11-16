@@ -1,0 +1,126 @@
+// =====================================================================
+// Medidas DAX del dashboard "Transición energética en Chile y LatAm"
+// Crear una tabla vacía llamada _Medidas (Inicio > Escribir datos > Cargar)
+// y pegar cada medida con "Nueva medida". Ver powerbi/GUIA_POWER_BI.md.
+//
+// Nota: si tu Power BI usa ";" como separador de listas (configuración regional
+// en español), reemplaza las "," entre argumentos por ";".
+// =====================================================================
+
+
+// ---------- Tabla calculada de años (Modelado > Nueva tabla) ----------
+dim_anio =
+ADDCOLUMNS (
+    GENERATESERIES ( 2000, 2025, 1 ),
+    "anio", [Value],
+    "Década", FLOOR ( [Value], 10 ) & "s"
+)
+// Después: eliminar o esconder la columna [Value] y relacionar dim_anio[anio]
+// con fact_generacion[anio] y fact_pais_anio[anio] (1 a muchos).
+
+
+// ---------- Generación ----------
+Generación TWh =
+SUM ( fact_generacion[generacion_twh] )
+
+Generación renovable TWh =
+CALCULATE ( [Generación TWh], dim_fuente[categoria] = "Renovable" )
+
+Generación fósil TWh =
+CALCULATE ( [Generación TWh], dim_fuente[categoria] = "Fósil" )
+
+Generación solar + eólica TWh =
+CALCULATE ( [Generación TWh], dim_fuente[fuente_id] IN { "solar", "eolica" } )
+
+
+// ---------- Participaciones (formato: porcentaje, 1 decimal) ----------
+% Renovable =
+DIVIDE ( [Generación renovable TWh], [Generación TWh] )
+
+% Fósil =
+DIVIDE ( [Generación fósil TWh], [Generación TWh] )
+
+% Solar + eólica =
+DIVIDE ( [Generación solar + eólica TWh], [Generación TWh] )
+
+% Carbón =
+DIVIDE ( CALCULATE ( [Generación TWh], dim_fuente[fuente_id] = "carbon" ), [Generación TWh] )
+
+% del total del país =
+// Para el gráfico de mix: participación de cada fuente dentro del país/año filtrado
+DIVIDE ( [Generación TWh], CALCULATE ( [Generación TWh], REMOVEFILTERS ( dim_fuente ) ) )
+
+
+// ---------- Comparaciones en el tiempo ----------
+Año seleccionado =
+MAX ( dim_anio[anio] )
+
+% Renovable año anterior =
+VAR _anio = [Año seleccionado]
+RETURN
+    CALCULATE ( [% Renovable], dim_anio[anio] = _anio - 1 )
+
+Variación % renovable (pp) =
+// Multiplicado por 100 para mostrarlo como "puntos porcentuales"
+([% Renovable] - [% Renovable año anterior]) * 100
+
+% Renovable 2015 =
+CALCULATE ( [% Renovable], dim_anio[anio] = 2015 )
+
+Cambio vs 2015 (pp) =
+([% Renovable] - [% Renovable 2015]) * 100
+
+
+// ---------- Comparaciones regionales (promedios ponderados por TWh) ----------
+% Renovable LatAm =
+CALCULATE ( [% Renovable], REMOVEFILTERS ( dim_pais ), dim_pais[es_latam] = TRUE () )
+
+% Renovable Mundo =
+CALCULATE ( [% Renovable], REMOVEFILTERS ( dim_pais ) )
+
+Brecha vs LatAm (pp) =
+([% Renovable] - [% Renovable LatAm]) * 100
+
+Ranking % renovable LatAm =
+// Solo países de LatAm con sistemas de al menos 1 TWh, igual que la consulta SQL 02
+IF (
+    HASONEVALUE ( dim_pais[pais] ) && SELECTEDVALUE ( dim_pais[es_latam] ) = TRUE () && [Generación TWh] >= 1,
+    RANKX (
+        FILTER (
+            ALL ( dim_pais[pais], dim_pais[es_latam] ),
+            dim_pais[es_latam] = TRUE () && [Generación TWh] >= 1
+        ),
+        [% Renovable], , DESC, DENSE
+    )
+)
+
+Participación en solar LatAm =
+DIVIDE (
+    CALCULATE ( [Generación TWh], dim_fuente[fuente_id] = "solar" ),
+    CALCULATE ( [Generación TWh], dim_fuente[fuente_id] = "solar", REMOVEFILTERS ( dim_pais ), dim_pais[es_latam] = TRUE () )
+)
+
+
+// ---------- Emisiones ----------
+Intensidad de carbono (gCO2/kWh) =
+// Promedio ponderado por generación: correcto al agregar varios países o años
+DIVIDE (
+    SUMX ( fact_pais_anio, fact_pais_anio[intensidad_carbono_g_kwh] * fact_pais_anio[generacion_twh] ),
+    CALCULATE ( SUM ( fact_pais_anio[generacion_twh] ), NOT ISBLANK ( fact_pais_anio[intensidad_carbono_g_kwh] ) )
+)
+
+CO2 per cápita (t) =
+DIVIDE ( SUM ( fact_pais_anio[co2_mt] ) * 1000000, SUM ( fact_pais_anio[poblacion] ) )
+
+
+// ---------- Textos dinámicos ----------
+Título página =
+"Matriz eléctrica de " & SELECTEDVALUE ( dim_pais[pais], "varios países" ) & " · " & [Año seleccionado]
+
+Nota año preliminar =
+IF (
+    CALCULATE ( COUNTROWS ( fact_pais_anio ), REMOVEFILTERS ( dim_pais ),
+                fact_pais_anio[anio_cobertura_completa] = FALSE () ) > 0,
+    "⚠ Dato preliminar: el año seleccionado aún no tiene cobertura completa de países.",
+    ""
+)
